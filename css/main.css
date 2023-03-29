@@ -1,0 +1,228 @@
+@import url(/fonts/BINGGRAE.TTF);
+@import url(/fonts/BINGGRAE-BOLD.TTF);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Poppins&display=swap');
+
+@font-face {
+    src: url("../fonts/BINGGRAE.TTF");
+    font-family: "Binggrae";
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {    
+	font-family: 'Binggrae-Bold';
+    src: url("../fonts/BINGGRAE-BOLD.TTF") format('woff');
+    /* src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Binggrae-Bold.woff2') format('woff2'); */
+    font-weight: normal;
+    font-style: normal;
+}
+/* ** 폰트 ** */
+.en{
+	font-family: 'Poppins', sans-serif;
+	/* font-family: 'Noto Sans KR', sans-serif; */
+	letter-spacing: normal !important;
+	/* font-weight: 300; */
+}
+.ko{
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+#Binggrae_font {
+    font-family: "Binggrae";
+}
+
+* {
+    text-decoration: none;
+}
+
+.wrap {
+    width: 100%;
+    /* position: relative; */
+    /* display: flex; */
+}
+
+.wrap header .header-top{
+    
+}
+
+.wrap header .header-top ul {
+    
+    border-bottom: 6px solid #999;
+    
+    margin: 3px 40px 0;
+    font-size: 20px;
+    /* background: tomato; */
+    border-bottom: #999;
+
+    position: absolute;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrap header .header-top ul li {
+    margin-right: 20px;
+}
+
+.wrap header .header-top ul li img {
+    height: 20px;
+    margin-left: 5px;
+
+}
+
+.wrap header .header-container h1 {
+    padding: 0px;
+    margin-left: 9px;
+    height: 43px;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    flex-wrap: nowrap;
+}
+
+.wrap header .header-container h1 img {
+    width: 210px;
+    margin: 50px 10px 0;
+}
+
+.wrap header .header-scontainer {
+    position: absolute;
+    top: 72px;
+    left: 37em;
+    background: tomato;
+    width: 44rem;
+    height: 40px;
+}
+
+.wrap header .header-container .header-scontainer ul{
+    display: flex;
+}
+
+footer {
+    background: #000;
+    position: relative;
+    bottom: 0;
+    padding: 40px 50px;
+}
+
+footer .footer01 {
+    width: 805;
+    height: 30;
+    /* background: tomato; */
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+footer .footer01 .footer-right {
+    width: 169.453;
+    height: 26;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+footer .footer01 .footer-right a {
+    color: rgba(255, 255, 255, 0.4);;
+    text-decoration: none;
+    transition: all 0.5s
+    
+}
+
+footer .footer01 .footer-right li {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0 17px 0;
+    list-style: none;
+}
+
+footer .footer02 {
+    width: 805px;
+    height: 207px;
+    /* background: skyblue; */
+}
+
+footer .footer02 ul {
+    margin: 30px 0;
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+
+footer .footer02 ul li {
+    box-sizing: border-box;
+    padding: 9px 0;
+}
+
+footer .footer03 {
+    width: 805px;
+    height: 70px;
+    max-width: 1920px;
+    /* background: red; */
+    display: flex;
+}
+
+footer .footer03 .copy {
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+footer .footer03 .out-logo {
+    padding: 0 0 0 381px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer03 .out-logo .snsbox ul{
+    
+    display: flex;
+    
+}
+
+footer .footer03 .out-logo .snsbox ul li {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.36);
+    background-color: #1b1b1b;
+    border-radius: 50%;
+}
+
+footer .footer03 .out-logo .store-logo {
+    width: 355px;
+    height: 70px;
+    color: aliceblue;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 35px;
+    box-shadow: 0px 4px 10.8px 2.2px rgba(73, 73, 73, 0.11);
+    background-color: #1b1b1b;
+    margin-left: 60px;
+    
+    position: relative;
+    cursor: pointer;
+}
+
+footer .footer03 .out-logo .store-logo .text-logo li {
+    line-height: 70px;
+    display: flex;
+    
+}
+
+footer .footer03 .out-logo .store-logo .text-logo span {
+    display: inline-block;
+    vertical-align: center;
+    line-height: 70px;
+}
+
+footer .footer03 .out-logo .store-logo .text-logo ul li img {
+    margin: 0 26px;
+}
