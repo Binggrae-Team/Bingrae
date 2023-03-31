@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8">
@@ -21,10 +21,11 @@
 
     <!-- linear icons -->
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-    <script src="/js/front/jquery.js"></script>
+    
 </head>
 
 <body>
+
     <div class="wrap">
         <header class="header">
             <div class="header_top">
@@ -90,7 +91,7 @@
                             <nav class="breadcrumb">
                                 <ul class="brec_wr inb">
                                     <li class="brec n1 home">
-                                        
+
                                         <a href="#">
                                             <img src="/img/btn_icon_home.png" alt="to home">
                                         </a>
@@ -116,7 +117,7 @@
                         <div class="sub_tit">
                             <h4>히스토리</h4>
                         </div>
-                        <div class="sub_txt">
+                        <div id="year_top" class="sub_txt">
                             국민의 건강과 행복을 만들어 온 빙그레의 지난 순간들을 소개합니다.
                         </div>
                     </div><!-- //sub_tit_wr -->
@@ -127,7 +128,7 @@
                         <div class="history_cont">
                             <div class="history_box">
                                 <div class="history_l">
-                                    <div data-scrollmagic-pin-spacer="" class="scrollmagic-pin-spacer">
+                                    <div data-scrollmagic-pin-spacer="" class="scrollmagic-pin-spacer sticki">
                                         <div class="history_fix">
                                             <div class="l_box">
                                                 <div class="txt_box">
@@ -161,9 +162,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="year_box inb">
-                                                    <div class="cont on"><span>Now - 2020</span></div>
-                                                    <div class="cont"><span>2019 - 2000</span></div>
-                                                    <div class="cont"><span>1999 - 1967</span></div>
+                                                    <a href="#year_top">
+                                                        <div class="cont on"><span>Now - 2020</span></div>
+                                                    </a>
+                                                    <a href="#year_mid">
+                                                        <div class="cont"><span>2019 - 2000</span></div>
+                                                    </a>
+                                                    <a href="#year_bot">
+                                                        <div class="cont"><span>1999 - 1967</span></div>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -265,7 +272,7 @@
                                                     <div class="biz_wrap">
                                                         <div class="biz_num">2020.10</div>
                                                         <div class="biz_txt">
-                                                            <span class="s_txt">
+                                                            <span id="year_mid" class="s_txt">
                                                                 해태 아이스크림 인수<br>
                                                                 KCSI 한국산업의 고객만족도 아이스크림 부문 14년 연속 1위
                                                             </span>
@@ -478,7 +485,7 @@
                                                     <div class="biz_wrap">
                                                         <div class="biz_num">2002.05</div>
                                                         <div class="biz_txt">
-                                                            <span class="s_txt">
+                                                            <span id="year_bot" class="s_txt">
                                                                 새천년을 향한 비전선포식 개최
                                                             </span>
                                                         </div>
@@ -704,6 +711,9 @@
             </div>
         </div>
     </footer>
+    <div class="ready">
+        죄송합니다. 준비중입니다.
+    </div>
 
 </body>
 
